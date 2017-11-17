@@ -12,11 +12,11 @@ namespace Brainwasher
 {
     public partial class frmBrainwasher : Form
     {
-        public System.Drawing.Bitmap grey = Properties.Resources.gris;
-        public System.Drawing.Bitmap green = Properties.Resources.verde;
-        public System.Drawing.Bitmap red = Properties.Resources.rojo;
-        public System.Drawing.Bitmap blue = Properties.Resources.azul;
-        public System.Drawing.Bitmap purple = Properties.Resources.morado;
+        public Bitmap grey = Properties.Resources.gris;
+        public Bitmap green = Properties.Resources.verde;
+        public Bitmap red = Properties.Resources.rojo;
+        public Bitmap blue = Properties.Resources.azul;
+        public Bitmap purple = Properties.Resources.morado;
 
         public frmBrainwasher()
         {
@@ -31,10 +31,6 @@ namespace Brainwasher
 
             lblVENI.ForeColor = Color.SaddleBrown;
             lblNWA.ForeColor = Color.SaddleBrown;
-
-            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            this.Width = 800;
-            this.Height = 500;
         }
 
         private void bttnBegin_Click(object sender, EventArgs e)

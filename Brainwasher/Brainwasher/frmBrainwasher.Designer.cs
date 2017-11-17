@@ -48,9 +48,9 @@
             this.bttnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bttnExit.Location = new System.Drawing.Point(678, 387);
+            this.bttnExit.Location = new System.Drawing.Point(680, 391);
             this.bttnExit.Name = "bttnExit";
-            this.bttnExit.Size = new System.Drawing.Size(92, 49);
+            this.bttnExit.Size = new System.Drawing.Size(90, 50);
             this.bttnExit.TabIndex = 24;
             this.bttnExit.Text = "Salir";
             this.bttnExit.UseVisualStyleBackColor = true;
@@ -164,6 +164,7 @@
             this.Controls.Add(this.lblBRAI);
             this.Controls.Add(this.lblBIEN);
             this.Controls.Add(this.bttnBegin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBrainwasher";
             this.Text = "Brainwasher";
             this.ResumeLayout(false);

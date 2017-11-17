@@ -37,6 +37,7 @@
             this.bttnPlay = new System.Windows.Forms.Button();
             this.picBxCard = new System.Windows.Forms.PictureBox();
             this.lblGames = new System.Windows.Forms.Label();
+            this.bttnExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBxCard)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,9 +46,9 @@
             this.lblUser.BackColor = System.Drawing.Color.Transparent;
             this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblUser.Location = new System.Drawing.Point(1028, 0);
+            this.lblUser.Location = new System.Drawing.Point(1008, 0);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(123, 30);
+            this.lblUser.Size = new System.Drawing.Size(123, 50);
             this.lblUser.TabIndex = 13;
             this.lblUser.Text = "Usuario";
             this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -74,6 +75,7 @@
             this.bttnCards.TabIndex = 11;
             this.bttnCards.Text = "Personajes";
             this.bttnCards.UseVisualStyleBackColor = true;
+            this.bttnCards.Click += new System.EventHandler(this.bttnCards_Click);
             this.bttnCards.MouseEnter += new System.EventHandler(this.bttnCards_MouseEnter);
             this.bttnCards.MouseLeave += new System.EventHandler(this.bttnCards_MouseLeave);
             // 
@@ -91,6 +93,7 @@
             this.bttnVersus.TabIndex = 10;
             this.bttnVersus.Text = "Multijugador";
             this.bttnVersus.UseVisualStyleBackColor = true;
+            this.bttnVersus.Click += new System.EventHandler(this.bttnVersus_Click);
             this.bttnVersus.MouseEnter += new System.EventHandler(this.bttnVersus_MouseEnter);
             this.bttnVersus.MouseLeave += new System.EventHandler(this.bttnVersus_MouseLeave);
             // 
@@ -108,6 +111,7 @@
             this.bttnLogin.TabIndex = 9;
             this.bttnLogin.Text = "Login";
             this.bttnLogin.UseVisualStyleBackColor = true;
+            this.bttnLogin.Click += new System.EventHandler(this.bttnLogin_Click);
             this.bttnLogin.MouseEnter += new System.EventHandler(this.bttnLogin_MouseEnter);
             this.bttnLogin.MouseLeave += new System.EventHandler(this.bttnLogin_MouseLeave);
             // 
@@ -125,15 +129,19 @@
             this.bttnPlay.TabIndex = 8;
             this.bttnPlay.Text = "1 Jugador";
             this.bttnPlay.UseVisualStyleBackColor = true;
+            this.bttnPlay.Click += new System.EventHandler(this.bttnPlay_Click);
             this.bttnPlay.MouseEnter += new System.EventHandler(this.bttnPlay_MouseEnter);
             this.bttnPlay.MouseLeave += new System.EventHandler(this.bttnPlay_MouseLeave);
             // 
             // picBxCard
             // 
+            this.picBxCard.BackColor = System.Drawing.Color.Transparent;
+            this.picBxCard.BackgroundImage = global::Brainwasher.Properties.Resources.user;
             this.picBxCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBxCard.Location = new System.Drawing.Point(1151, 0);
+            this.picBxCard.Location = new System.Drawing.Point(1130, 0);
             this.picBxCard.Name = "picBxCard";
-            this.picBxCard.Size = new System.Drawing.Size(30, 30);
+            this.picBxCard.Size = new System.Drawing.Size(50, 50);
+            this.picBxCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBxCard.TabIndex = 14;
             this.picBxCard.TabStop = false;
             // 
@@ -142,12 +150,31 @@
             this.lblGames.BackColor = System.Drawing.Color.Transparent;
             this.lblGames.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGames.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblGames.Location = new System.Drawing.Point(974, 0);
+            this.lblGames.Location = new System.Drawing.Point(954, 0);
             this.lblGames.Name = "lblGames";
-            this.lblGames.Size = new System.Drawing.Size(53, 30);
+            this.lblGames.Size = new System.Drawing.Size(53, 50);
             this.lblGames.TabIndex = 15;
             this.lblGames.Text = "0";
             this.lblGames.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bttnExit
+            // 
+            this.bttnExit.BackgroundImage = global::Brainwasher.Properties.Resources.gris;
+            this.bttnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bttnExit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.bttnExit.FlatAppearance.BorderSize = 0;
+            this.bttnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnExit.ForeColor = System.Drawing.SystemColors.Control;
+            this.bttnExit.Location = new System.Drawing.Point(12, 641);
+            this.bttnExit.Name = "bttnExit";
+            this.bttnExit.Size = new System.Drawing.Size(90, 50);
+            this.bttnExit.TabIndex = 16;
+            this.bttnExit.Text = "Salir";
+            this.bttnExit.UseVisualStyleBackColor = true;
+            this.bttnExit.Click += new System.EventHandler(this.bttnExit_Click);
+            this.bttnExit.MouseEnter += new System.EventHandler(this.bttnExit_MouseEnter);
+            this.bttnExit.MouseLeave += new System.EventHandler(this.bttnExit_MouseLeave);
             // 
             // frmSeleccion
             // 
@@ -158,6 +185,7 @@
             this.BackgroundImage = global::Brainwasher.Properties.Resources.Brainwasher_logo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1182, 703);
+            this.Controls.Add(this.bttnExit);
             this.Controls.Add(this.lblGames);
             this.Controls.Add(this.picBxCard);
             this.Controls.Add(this.lblUser);
@@ -166,6 +194,7 @@
             this.Controls.Add(this.bttnVersus);
             this.Controls.Add(this.bttnLogin);
             this.Controls.Add(this.bttnPlay);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmSeleccion";
             this.Text = "frmSeleccion";
             ((System.ComponentModel.ISupportInitialize)(this.picBxCard)).EndInit();
@@ -183,5 +212,6 @@
         private System.Windows.Forms.Button bttnLogin;
         private System.Windows.Forms.Button bttnPlay;
         private System.Windows.Forms.Label lblGames;
+        private System.Windows.Forms.Button bttnExit;
     }
 }
