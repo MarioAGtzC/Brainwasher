@@ -1,0 +1,10 @@
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\bin\Debug\Brainwasher.exe.config
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\bin\Debug\Brainwasher.exe
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\bin\Debug\Brainwasher.pdb
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.csprojResolveAssemblyReference.cache
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.frmBrainwasher.resources
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.frmSeleccion.resources
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.Properties.Resources.resources
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.csproj.GenerateResource.Cache
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.exe
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.pdb
