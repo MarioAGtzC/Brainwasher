@@ -109,7 +109,7 @@
             this.bttnLogin.Name = "bttnLogin";
             this.bttnLogin.Size = new System.Drawing.Size(288, 169);
             this.bttnLogin.TabIndex = 9;
-            this.bttnLogin.Text = "Login";
+            this.bttnLogin.Text = "Iniciar sesión";
             this.bttnLogin.UseVisualStyleBackColor = true;
             this.bttnLogin.Click += new System.EventHandler(this.bttnLogin_Click);
             this.bttnLogin.MouseEnter += new System.EventHandler(this.bttnLogin_MouseEnter);

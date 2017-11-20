@@ -73,17 +73,12 @@ namespace Brainwasher
 
         private void bttnCards_Click(object sender, EventArgs e)
         {
-            if (lblUser.Text == "Usuario")
-            {
-                getMessageBox();
-            }
-            else
-            {
+            
                 this.Close();
                 frmCards cards = new frmCards();
                 cards.Show();
                 cards.TopMost = true;
-            }
+            
         }
 
         private void bttnExit_MouseEnter(object sender, EventArgs e)

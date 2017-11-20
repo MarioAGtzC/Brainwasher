@@ -10,3 +10,4 @@ C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.exe
 C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.pdb
 C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.frmCards.resources
 C:\Users\mario\Desktop\Brainwasher\Brainwasher\obj\Debug\Brainwasher.frmLogin.resources
+C:\Users\mario\Desktop\Brainwasher\Brainwasher\bin\Debug\Registro.mdb
